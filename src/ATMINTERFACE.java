@@ -3,17 +3,14 @@ import java.util.Scanner;
 class BankAccount {
     private double balance;
 
-    // Initializes account with a starting balance
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
 
-    // Returns current balance
     public double getBalance() {
         return balance;
     }
 
-    // Handles deposits
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -36,15 +33,14 @@ class BankAccount {
 }
 
 class ATM {
-    private BankAccount userAccount;
-    private Scanner scanner;
+    private final BankAccount userAccount;
+    private final Scanner scanner;
 
     public ATM(BankAccount account) {
         this.userAccount = account;
         this.scanner = new Scanner(System.in);
     }
 
-    // Displays the ATM menu and handles user input
     public void displayMenu() {
         while (true) {
             System.out.println("\n ATM SERVICE ");
