@@ -28,8 +28,6 @@ public class NUMBERGAMETASK1 {
                     maxguess = 10;
                     break;
                 case 2:
-                    maxrange = 100;
-                    maxguess = 7;
                     break;
                 case 3:
                     maxrange = 200;
