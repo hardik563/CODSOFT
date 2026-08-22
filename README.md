@@ -1,6 +1,7 @@
 This repository contains solutions to the  
 CodSoft
-internship tasks, including a Number Game, 
+internship tasks, including a
+Number Game, 
 ATM Interface, 
 and Student
 Grade System.  These projects demonstrate
