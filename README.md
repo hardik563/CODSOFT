@@ -6,6 +6,5 @@ fundamental programmings
 concepts using Java. 
 Each project showcases a unique 
 aspect of programming,
-
 from game development to user 
 interface design and data analysis.
