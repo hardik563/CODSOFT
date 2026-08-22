@@ -4,7 +4,8 @@ internship tasks, including a
 Number Game, 
 ATM Interface, 
 and Student
-Grade System.  These projects demonstrate
+Grade System.
+These projects demonstrate
 fundamental programmings 
 concepts using Java. 
 Each project showcases a unique 
